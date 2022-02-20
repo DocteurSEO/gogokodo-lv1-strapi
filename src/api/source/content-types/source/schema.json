@@ -4,7 +4,8 @@
   "info": {
     "singularName": "source",
     "pluralName": "sources",
-    "displayName": "Source"
+    "displayName": "Source",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,6 +19,17 @@
       "type": "string"
     },
     "category": {
+      "type": "string"
+    },
+    "difficulty": {
+      "type": "enumeration",
+      "enum": [
+        "Facile",
+        "Moyen",
+        "Dure"
+      ]
+    },
+    "color": {
       "type": "string"
     }
   }
